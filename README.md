@@ -1,5 +1,7 @@
 # SoundWave 🎵
 
+** backend URL : https://musicapp-r2hb.onrender.com **
+
 > A full-stack **music sharing and discovery app** — upload tracks, follow artists, build your library.
 
 <div align="center">
