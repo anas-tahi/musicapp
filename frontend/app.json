@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "MusicApp",
+    "slug": "musicapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A0F"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.musicapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0A0F"
+      },
+      "package": "com.yourname.musicapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow MusicApp to access your photos.",
+          "cameraPermission": "Allow MusicApp to access your camera."
+        }
+      ],
+      "expo-av"
+    ],
+    "scheme": "musicapp",
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
