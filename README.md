@@ -1,7 +1,5 @@
 # SoundWave 🎵
 
-** backend URL : https://musicapp-r2hb.onrender.com **
-
 > A full-stack **music sharing and discovery app** — upload tracks, follow artists, build your library.
 
 <div align="center">
@@ -10,6 +8,9 @@
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Render](https://img.shields.io/badge/Backend_Live-46E3B7?style=for-the-badge&logo=render&logoColor=black)
+
+**[🌐 Backend API → musicapp-r2hb.onrender.com](https://musicapp-r2hb.onrender.com)**
 
 </div>
 
@@ -32,6 +33,7 @@
 | Database | MongoDB |
 | Auth | JWT |
 | File Storage | Multer |
+| Deployment | Render |
 
 ## 🚀 Run Locally
 
